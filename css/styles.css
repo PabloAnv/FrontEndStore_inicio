@@ -1,0 +1,22 @@
+/**Pseudo selector**/
+
+:root {
+    --primario: #9C27B8;
+    --primario-osucuro: #891190;
+    --secundario: #FFCE00;
+    --secundario-oscuro: rgb(233,287,2);
+    --blanco: #fff;
+    -negro: #000;
+
+    --fuente-principal: 'Staatliches', cursive;
+}
+
+/****/
+
+html{
+
+}
+
+body{
+   
+}
