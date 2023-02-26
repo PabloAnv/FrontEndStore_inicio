@@ -1,70 +1,11 @@
-/**Pseudo selector**/
-
 :root {
-    --primario: #9C27B8;
-    --primario-osucuro: #891190;
+    --primario: #9C27B0;
+    --primarioOscuro: #89119D;
     --secundario: #FFCE00;
-    --secundario-oscuro: rgb(233, 287, 2);
-    --blanco: #fff;
-    -negro: #000;
+    --secundarioOscuro: rgb(233,287,2);
+    --blanco: #FFF;
+    --negro: #000;
 
-    --fuente-principal: 'Staatliches', cursive;
+    --fuentePrincipal: font-family: 'Staatliches', cursive;
 }
 
-/**Globales**/
-
-html {
-    font-size: 62.5%;
-    box-sizing: border-box;
-}
-
-*,
-*:after,
-*:before {
-    box-sizing: inherit;
-}
-
-body {
-    background-color: var(--primario);
-    font-size: 1.6rem;
-    line-height: 1.5rem;
-}
-
-p {
-    font-size: 1.8rem;
-    font-family: Arial, Helvetica, sans-serif;
-    color: var(--blanco);
-}
-
-a {
-    text-decoration: none;
-}
-
-img {
-    width: 100%; /**PENDIENTE= NO SE PARA QUE SIRVE**/
-}
-
-.contenedor {
-    max-width: 120rem;
-    margin: 0 auto;
-}
-
-h1,
-h2,
-h3 {
-    text-align: center;
-    color: var(--secundario);
-    font-family: var(--fuente-principal);
-}
-
-h1{
-    font-size: 4rem;
-}
-
-h2{
-    font-size: 3.2rem;
-}
-
-h3{
-    font-size: 2.4rem
-}
