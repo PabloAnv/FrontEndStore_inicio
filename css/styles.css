@@ -101,13 +101,47 @@ h3 {
 
 /**Footer**/
 
-.footer{
+.footer {
     background-color: var(--primarioOscuro);
     padding: 1rem 0;
     margin-top: 1rem;
     font-family: var(--fuentePrincipal);
 }
 
-.footer__texto{
+.footer__texto {
     text-align: center;
 }
+
+/**Main**/
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.producto {
+    background-color: var(--primarioOscuro);
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.producto__imagen {
+}
+
+.producto__informacion {}
+
+.producto__nombre {}
+
+.producto__precio {}
+
+/**Media Querys**/
+
+@media ( min-width: 768px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
