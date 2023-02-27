@@ -6,7 +6,7 @@
     --blanco: #FFF;
     --negro: #000;
 
-    --fuentePrincipal: font-family: 'Staatliches', cursive;
+    --fuentePrincipal: 'Staatliches', cursive;
 }
 
 html {
@@ -86,8 +86,6 @@ h3 {
     display: flex;
     justify-content: center;
     gap: 3rem;
-
-
 }
 
 .navegacion__enlace {
@@ -99,4 +97,17 @@ h3 {
 .navegacion__enlace--activo,
 .navegacion__enlace:hover {
     color: var(--secundario);
+}
+
+/**Footer**/
+
+.footer{
+    background-color: var(--primarioOscuro);
+    padding: 1rem 0;
+    margin-top: 1rem;
+    font-family: var(--fuentePrincipal);
+}
+
+.footer__texto{
+    text-align: center;
 }
