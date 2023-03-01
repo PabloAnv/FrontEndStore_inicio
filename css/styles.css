@@ -189,6 +189,14 @@ h3 {
     align-items: center;
     
 }
+
+.bloque__titulo{
+    margin: 0;
+}
+
+.bloque__imagen{
+    width: 100%;
+}
 /**Media Querys**/
 
 @media (min-width: 769px) {
