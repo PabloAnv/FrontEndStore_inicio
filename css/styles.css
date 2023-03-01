@@ -30,7 +30,7 @@ body {
 
 p {
     font-size: 1.8rem;
-    font-family: var(--fuentePrincipal);
+    
     color: var(--blanco);
 }
 
@@ -131,8 +131,6 @@ h3 {
     width: 100%;
 }
 
-.producto__informacion {}
-
 .producto__nombre {
     font-size: 4rem;
 }
@@ -158,19 +156,42 @@ h3 {
     background-size: cover;
 }
 
-.grafico__camisas{
+.grafico__camisas {
     grid-row: 2 / 3;
     background-image: url(../img/grafico1.jpg);
 }
 
-.grafico__node{
+.grafico__node {
     grid-row: 8 / 9;
     background-image: url(../img/grafico2.jpg);
 }
 
+/**Nosotros**/
+
+.nosotros__imagen {
+    background-image: url(../img/nosotros.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 40rem;
+}
+
+/**Iconos Nosotros**/
+
+.bloque{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+}
+
+.bloque__flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
 /**Media Querys**/
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
     .grid {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -181,4 +202,28 @@ h3 {
         grid-column: 2 / 4;
     }
 
+    .nosotros {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 3rem;
+        min-height: 40rem;
+    }
+
+    .nosotros__contenido {
+        grid-column: 1;
+        grid-row: 1 /2;
+    }
+
+    .nosotros__imagen {
+        grid-column: 2;
+        background-image: url(../img/nosotros.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .bloque{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 1rem;
+    }
 }
