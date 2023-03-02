@@ -197,6 +197,7 @@ h3 {
 .bloque__imagen{
     width: 100%;
 }
+
 /**Media Querys**/
 
 @media (min-width: 769px) {
